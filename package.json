@@ -1,0 +1,11 @@
+{
+  "name": "domenic",
+  "version": "0.0.0",
+  "description": "Normalizes the interface for a DOM parsing between browsers and Node.js",
+  "main": "./domenic.js",
+  "browser": "./browser/domenic.js",
+  "dependencies": {
+    "xmldom": "~0.1.16",
+    "minidom": "0.0.2"
+  }
+}
