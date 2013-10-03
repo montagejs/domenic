@@ -4,8 +4,14 @@
   "description": "Normalizes the interface for a DOM parsing between browsers and Node.js",
   "main": "./domenic.js",
   "browser": "./browser/domenic.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
   "dependencies": {
     "xmldom": "~0.1.16",
     "minidom": "~0.1.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.11.0"
   }
 }
