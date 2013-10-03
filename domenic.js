@@ -1,5 +1,5 @@
 
-var HtmlDom = require("minidom/lib/dom-level3").dom.level3.core;
+var HtmlDom = require("minidom/dom");
 var minidom = require("minidom");
 var xmldom = require("xmldom");
 

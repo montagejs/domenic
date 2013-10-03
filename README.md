@@ -7,7 +7,7 @@ used in browsers using [Browserify][] or [Mr][].  The interface for
 using `domenic` is:
 
 ```javascript
-var domenic = require("./domenic");
+var domenic = require("domenic");
 var parser = new domenic.DOMParser();
 var document = parser.parseFromString(content, contentType);
 ```
