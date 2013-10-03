@@ -6,6 +6,6 @@
   "browser": "./browser/domenic.js",
   "dependencies": {
     "xmldom": "~0.1.16",
-    "minidom": "0.0.2"
+    "minidom": "~0.1.0"
   }
 }
